@@ -1,0 +1,15 @@
+<div class="bg-light  p-5">
+    <div class="row p-5" style="border: solid; border-radius: 20px; border-color: aliceblue; border-width: 1px; ">
+        <div class="col w-25">
+            <img [src]="product?.imageUrl" class="img-fluid" alt="Product Image">
+        </div>
+        <div class="col">
+            <h1 class="pt-4 mb-3"> {{ product?.name }}</h1>
+            <p><span style="font-weight: bold;">Product ID:</span> {{ product?.id }}</p>
+            <p><span style="font-weight: bold;">Price:</span> &#8377;{{ product?.price }}</p>
+            <br>
+            <br>
+            <button class="btn btn-success px-4">Buy Now</button>
+        </div>
+    </div>
+</div>
